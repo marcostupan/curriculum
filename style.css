@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.download-btns {
+    display: flex;
+    align-items: center;
+}
+
+.download-btn {
+    margin-left: 10px;
+    padding: 8px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+li {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+img {
+    width: 1rem;
+}
+
+.sobre {
+    padding-top: 3rem;
+}
+.sobre h2 {
+    text-align: center;
+}
+
+.container {
+    text-align: center; 
+    display: block;
+}
+
+.experiencia {
+    text-align: justify; 
+    display: block;
+    margin: 20px 0; 
+}
+
+.experiencia h3 {
+    text-align: left; 
+    font-size: 1rem
+}
+
+.experiencia ul {
+    padding-left: 20px; 
+    
+}
+
+.lista {
+    display: inline-block;
+}
+
+body > div.container > div > ul {
+    display: block;
+}
+
+body > div.container > div:nth-child(4) > ul {
+    display: inline-block;
+}
+
+body > div.educação > h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.curso {
+    padding-bottom: 2.5rem;
+}
+
+
+.idiomas h2  {
+ display: block;
+ text-align: center;
+ padding-bottom: 1.5rem;
+}
+.idioma {
+    display: flex;
+   
+}
+.idioma h4 {
+    margin-right: 0.5rem;
+}
+
+.projetos {
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+.projetos h2 {
+    text-align: center;
+}
+
+.contatos {
+    margin-left: 0;
+    display: flex;
+}
+
+.email {
+    text-align: start;
+}
+
+.projetos  a {
+    color: blueviolet;
+}
+
+#espanhol > h2 {
+    text-align: center;
+}
+
+#ingles > h2 {
+    text-align: center;
+}
